@@ -51,13 +51,13 @@ local: /home/<username>/.cache/dune/opam-repository/
 ```
 Then, you can tag the release using:
 ```
-dune-release tag
+dune-release tag <a suitable tag>
 ```
 Once done, you can simply call:
 ```
-dune release
+dune-release
 ```
-If all goes well this should create the Release on GitHub and open the PR to publish the package on opam-repository.
+If all goes well this should create the Release on GitHub and open the PR to publish the package on opam-repository. This requires a suitable github API key to be generated and supplied
 
 For any subsequent releases only the last two steps are necessary.
 
